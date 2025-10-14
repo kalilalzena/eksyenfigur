@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACTION FIGURE</title>
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="effect.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+    }
+
+    /* --- HEADER (mirip contoh gambar) --- */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #fff;
+      padding: 10px 40px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      font-weight: bold;
+      color: red;
+      font-size: 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: red;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      background: #f0f0f0;
+      border-radius: 5px;
+      padding: 5px 10px;
+    }
+
+    .search-box input {
+      border: none;
+      background: transparent;
+      outline: none;
+      padding: 5px;
+    }
+
+    .search-box button {
+      border: none;
+      background: red;
+      color: #fff;
+      padding: 6px 10px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    /* --- ISI HALAMAN --- */
+    h1 {
+      text-align: center;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .buttons button {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      width: 300px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .buttons button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .buttons img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f8f8f8;
+      margin-top: 50px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">Action Figure Store</div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="mwp.html">Most Wanted</a></li>
+        <li><a href="nl.html">New Launching</a></li>
+      </ul>
+    </nav>
+
+    <div class="search-box">
+      <input type="text" placeholder="Cari Judul...">
+      <button>🔍</button>
+    </div>
+  </header>
+
+  <!-- BAGIAN JUDUL -->
+  <center>
+    <h1>‧₊˚♪ 𝄞₊˚⊹ Welcome To Our Most Wanted Product Website ᝰ.ᐟ</h1>
+    <img src="hedr.jpg" width="1000">
+  </center>
+
+  <!-- BAGIAN PRODUK -->
+  <h1>CATALOGUE PRODUCT</h1>
+
+  <div class="buttons">
+    <button>
+      <img src="img12.jpg" alt="City Girl">
+      <p>CITY GIRL</p>
+      <p>IDR 9.999.000</p>
+    </button>
+
+    <button>
+      <img src="img8.webp" alt="Dinosaurred">
+      <p>DINOSAURRED</p>
+      <p>IDR 7.999.000</p>
+    </button>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div>Copyright &copy; 2020 by Alzen</div>
+  </footer>
+
+</body>
+</html>
